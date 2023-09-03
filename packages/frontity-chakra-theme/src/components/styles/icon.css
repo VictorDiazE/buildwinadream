@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+a:focus, a:hover {
+  box-shadow: none
+}
+
+/* @font-face {
+  font-family: "tamkeen";
+  src:url("fonts/tamkeen.eot");
+  src:url("fonts/tamkeen.eot?#iefix") format("embedded-opentype"),
+    url("fonts/tamkeen.woff") format("woff"),
+    url("fonts/tamkeen.ttf") format("truetype"),
+    url("fonts/tamkeen.svg#tamkeen") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+} */
+
+[data-icon]:before {
+  font-family: "tamkeen" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "tamkeen" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play:before {
+  content: "\61";
+}
+.icon-arrow:before {
+  content: "\62";
+}
+.icon-rigth-arrow:before {
+  content: "\63";
+}
+.icon-left-arrow:before {
+  content: "\64";
+}
+.icon-search:before {
+  content: "\65";
+}
+.icon-globe:before {
+  content: "\66";
+}
+.icon-burguer:before {
+  content: "\67";
+}
+.icon-user:before {
+  content: "\68";
+}
+.icon-arrow-up:before {
+  content: "\69";
+}
+.icon-arrow-down:before {
+  content: "\6a";
+}
+.icon-facebook:before {
+  content: "\6b";
+}
+.icon-twitter:before {
+  content: "\6c";
+}
+.icon-instagram:before {
+  content: "\6d";
+}
+.icon-youtube:before {
+  content: "\6e";
+}
+.icon-close:before {
+  content: "\6f";
+}
+.icon-tik-tok:before {
+  content: "\70";
+}
+.icon-linkedin:before {
+  content: "\71";
+}
